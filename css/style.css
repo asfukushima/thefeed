@@ -1,0 +1,129 @@
+main {
+    background-color: #EAF3F3;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #EAF3F3;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Splash Page */
+#splash {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#tab-bar {
+    background-color: #0078D7; /* Classic Microsoft Blue */
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    color: white;
+}
+#control-button mini {
+    height: 10px;
+    max-width: 10px;
+}
+#control-button max {
+    height: 10px;
+    max-width: 10px;
+}
+#control-button close {
+    height: 10px;
+    max-width: 10px;
+}
+#enter-button {
+    padding: 15px 30px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+}
+#enter-button:hover {
+    background-color: #0056b3;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+a {
+    padding: 15px 30px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #007BFF;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 5px;
+}
+
+nav a:hover {
+    background-color: #0056b3;
+    border-radius: 5px;
+}
+
+/* Content Grid */
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.content-box {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.content-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.content-box h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.content-box p {
+    font-size: 16px;
+}
